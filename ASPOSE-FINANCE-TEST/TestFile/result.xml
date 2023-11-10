@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:HelloWorld="http://xbrl.squarespace.com/HelloWorld" xmlns:example="http://xbrl.squarespace.com/HelloWorld" xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+  <link:schemaRef xlink:type="simple" xlink:href="HelloWorld.xsd" />
+  <context id="c_SHESO4g6">
+    <entity>
+      <identifier scheme="exampleIdentifierScheme">exampleIdentifier</identifier>
+    </entity>
+    <period>
+      <startDate>2020-01-01</startDate>
+      <endDate>2020-02-10</endDate>
+    </period>
+  </context>
+  <unit id="g_IQmLDSEY">
+    <measure>iso4217:USD</measure>
+  </unit>
+  <HelloWorld:Land contextRef="c_SHESO4g6" unitRef="g_IQmLDSEY" precision="4">9999</HelloWorld:Land>
+  <HelloWorld:BuildingsNet contextRef="c_SHESO4g6" unitRef="g_IQmLDSEY" precision="4">9999</HelloWorld:BuildingsNet>
+  <HelloWorld:FurnitureAndFixturesNet contextRef="c_SHESO4g6" unitRef="g_IQmLDSEY" precision="4">9999</HelloWorld:FurnitureAndFixturesNet>
+  <HelloWorld:ComputerEquipmentNet contextRef="c_SHESO4g6" unitRef="g_IQmLDSEY" precision="4">9999</HelloWorld:ComputerEquipmentNet>
+  <HelloWorld:OtherPropertyPlantAndEquipmentNet contextRef="c_SHESO4g6" unitRef="g_IQmLDSEY" precision="4">9999</HelloWorld:OtherPropertyPlantAndEquipmentNet>
+  <HelloWorld:PropertyPlantAndEquipmentNet contextRef="c_SHESO4g6" unitRef="g_IQmLDSEY" precision="4">9999</HelloWorld:PropertyPlantAndEquipmentNet>
+</xbrl>
