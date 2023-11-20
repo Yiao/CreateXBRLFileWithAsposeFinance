@@ -43,12 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Schemat.xsd" />
+    <None Include="TestFile\account_1.html" />
+    <None Include="TestFile\schema.xsd" />
+    <None Include="TestFile\xbrl-instance-2003-12-31.xsd" />
+    <None Include="TestFile\xbrl-linkbase-2003-12-31.xsd" />
+    <None Include="TestFile\xl-2003-12-31.xsd" />
+    <None Include="TestFile\xlink-2003-12-31.xsd" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TestFile\HelloWorld.xsd">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="TestFile\result.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFile\IdScopeContextPeriodStartAfterEnd.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
